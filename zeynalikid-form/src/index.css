@@ -1,0 +1,19 @@
+@import './foundation.css';
+html, body, #root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* جلوگیری از زوم خودکار سافاری روی فیلدها */
+input[type="text"], input[type="number"], input[type="email"], input[type="tel"],
+input[type="password"], input[type="search"], input[type="url"],
+input:not([type]), textarea, select {
+  font-size: 16px;
+}
